@@ -33,7 +33,7 @@ public class CardTest {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
     }
 
     @AfterEach
